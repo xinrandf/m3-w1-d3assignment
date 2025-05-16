@@ -1,0 +1,26 @@
+{
+  "name": "demo-node-app",
+  "version": "1.0.0",
+  "description": "A demo Node.js application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "dev": "nodemon src/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/demo-node-app.git"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/demo-node-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/demo-node-app#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
